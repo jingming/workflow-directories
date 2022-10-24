@@ -1,0 +1,11 @@
+name: Workflow in the nested directory
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Run step"
+        run: echo "This is a workflow in the nested directory"
