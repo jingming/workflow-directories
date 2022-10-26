@@ -6,4 +6,4 @@ runs:
   steps:
     - name: Install node packages
       shell: bash
-      run: echo a
+      run: echo b
