@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run the action
-      uses: jingming/workflow-directories@main
+      uses: jingming/workflow-directories/.github/actions/test@main
