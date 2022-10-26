@@ -1,0 +1,9 @@
+name: "Test action"
+description: "Test action"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install node packages
+      shell: bash
+      run: echo a

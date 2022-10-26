@@ -1,0 +1,13 @@
+name: Create New Release
+
+on:
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run the action
+      uses: jingming/workflow-directories@main
